@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="120dp"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout2">
+            <TextView
+                p1:text="Бар"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView1"
+                p1:paddingTop="12dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="ПА"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView2"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="Тех атм"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView3"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="Фіз атм"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView4"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="Мм рт ст"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView5"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="М вод ст"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView6"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+            <TextView
+                p1:text="psi"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView7"
+                p1:paddingTop="15dp"
+                p1:gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="260dp"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout3">
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText1"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText2"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText3"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText4"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText5"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText6"
+                p1:text="0" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText7"
+                p1:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout4">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="190px"
+            p1:minHeight="200px"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout5">
+            <Button
+                p1:text="1"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button1" />
+            <Button
+                p1:text="4"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button2" />
+            <Button
+                p1:text="7"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button3" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="190px"
+            p1:minHeight="200px"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout6">
+            <Button
+                p1:text="2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button4" />
+            <Button
+                p1:text="5"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button5" />
+            <Button
+                p1:text="8"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button6" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="190px"
+            p1:minHeight="200px"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout7">
+            <Button
+                p1:text="3"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button7" />
+            <Button
+                p1:text="6"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button8" />
+            <Button
+                p1:text="9"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button9" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="190px"
+            p1:minHeight="200px"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout8">
+            <Button
+                p1:text="C"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button10" />
+            <Button
+                p1:text="0"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button11" />
+            <Button
+                p1:text="."
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button12" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

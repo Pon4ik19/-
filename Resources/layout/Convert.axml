@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="horizontal"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="135dp"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout2"
+        p1:paddingTop="70dp"
+        p1:paddingLeft="15dp">
+        <Button
+            p1:text="Відстань"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button1"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Час"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button2"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Тиск"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button3"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Пам'ять"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button4"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="120dp"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout3"
+        p1:paddingTop="70dp">
+        <Button
+            p1:text="Площа"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button5"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Маса"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button6"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Швидкість"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button7"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Шв. передачі"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button8"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="120dp"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout4"
+        p1:paddingTop="70dp">
+        <Button
+            p1:text="Об'єм"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button9"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Сила"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button10"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Прискор"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button11"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+        <Button
+            p1:text="Шв. скач"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button12"
+            p1:textAllCaps="false"
+            p1:minWidth="100dp"
+            p1:minHeight="100dp" />
+    </LinearLayout>
+</LinearLayout>
